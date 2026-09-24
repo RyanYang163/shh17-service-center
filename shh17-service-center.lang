@@ -1,0 +1,97 @@
+[zh-cn]
+name = "服务中心"
+auth = "shh"
+descript = "回答「我的 NAS 到底在跑什么」。读取内核的监听套接字表建立端口地图，把常见端口解析成服务名，并按指纹识别 NAS 常见服务——SMB、NFS、SSH、Web、FTP、WebDAV 等——给出是否在监听。系统上可用 Docker 命令行时，列出容器名、镜像、状态、映射端口与运行时长。每个识别到的 Web 服务都带一个「打开」按钮，地址由你当前访问 NAS 所用的地址推导而来，不必自己去查端口号。整个应用是只读的：不启动、不停止、不重启、不修改任何服务或容器，也不会代你执行命令。历史视图记录端口地图随时间的变化。"
+release_note = "1. 首次发布。"
+important = "严格只读。不会启动、停止、重启或修改任何服务与容器。"
+
+[zh-hk]
+name = "服務中心"
+auth = "shh"
+descript = "回答「我的 NAS 到底在跑什麼」。讀取核心的監聽通訊端表建立連接埠地圖，把常見連接埠解析成服務名，並依指紋辨識 NAS 常見服務——SMB、NFS、SSH、Web、FTP、WebDAV 等——給出是否在監聽。系統上可用 Docker 命令列時，列出容器名稱、映像、狀態、對應連接埠與運行時長。每個辨識到的 Web 服務都帶一個「開啟」按鈕，位址由你目前存取 NAS 所用的位址推導而來。整個應用是唯讀的：不啟動、不停止、不重啟、不修改任何服務或容器，也不會代你執行命令。歷史檢視記錄連接埠地圖隨時間的變化。"
+release_note = "1. 首次發佈。"
+important = "嚴格唯讀。不會啟動、停止、重啟或修改任何服務與容器。"
+
+[en-us]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[fr-fr]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[de-de]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[it-it]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[es-es]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[hu-hu]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[ja-jp]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[ko-kr]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[pl-pl]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[ru-ru]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[tr-tr]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."
+
+[pt-pt]
+name = "Service Center"
+auth = "shh"
+descript = "Answers what your TNAS is actually running. Reads the kernel listening-socket tables to build a port map, resolves well-known ports to service names and fingerprints common NAS services (SMB, NFS, SSH, Web, FTP, WebDAV), reporting what is listening. Docker containers are listed with name, image, status, ports and uptime when the Docker command line is available. Every web service gets an open button whose address is derived from the address you reached the NAS on. Strictly read-only."
+release_note = "1. Initial release."
+important = "Strictly read-only. No service or container is ever started, stopped, restarted or modified."

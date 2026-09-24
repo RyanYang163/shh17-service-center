@@ -1,0 +1,9 @@
+Package: shh17-service-center
+Version: 1.0.0
+Architecture: amd64
+Section: utils
+Priority: optional
+Maintainer: shh <surpasshither@outlook.com>
+Depends: python3 (>= 3.10), systemd
+Description: Service Center
+ See which services, ports and containers your TNAS is running, and open them in one click.
