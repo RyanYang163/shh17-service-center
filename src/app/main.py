@@ -31,7 +31,7 @@ from tnasapp import fsapi, server as srv
 from . import collect, docker_engine, etcservices, fingerprint, history
 
 APP_ID = "shh17-service-center"
-APP_VERSION = "1.0.1"
+APP_VERSION = "1.0.025"
 TITLE = "Service Center"
 DESCRIPTION = "看清 NAS 上跑了哪些服务、端口与容器，一键打开（严格只读）。"
 
